@@ -1,0 +1,14 @@
+button {
+  background-color: #36a;
+  color: #fff;
+  padding: 10px 32px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1.1em;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:active {
+  background-color: #174080;
+  transform: scale(0.97);
+}
