@@ -1,0 +1,16 @@
+.announcement{
+  width:60vw;
+  height:80px;
+  background:#ffecef;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  box-sizing:content-box;
+  margin:auto;
+}
+
+@media (max-width:700px){
+  .announcement{
+    width:100vw;
+  }
+}
