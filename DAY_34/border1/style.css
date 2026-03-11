@@ -1,0 +1,15 @@
+.profile-card{
+  width:350px;
+  border-top:8px solid #4682B4;
+  border-right:4px solid #4682B4;
+  border-bottom:2px solid #4682B4;
+  border-left:2px dashed #4682B4;
+  background:#e7f7fa;
+  margin:40px auto;
+  padding:24px;
+}
+
+.profile-card h3{
+  margin-top:0;
+  color:#4682B4;
+}

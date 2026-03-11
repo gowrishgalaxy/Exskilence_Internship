@@ -1,0 +1,17 @@
+.news-card{
+  width:410px;
+
+  margin-top:20px;
+  margin-right:10px;
+  margin-bottom:40px;
+  margin-left:15px;
+
+  background:#f5fafd;
+  border:2px solid #bddafd;
+  padding:18px;
+}
+
+.news-card h2{
+  margin-top:0;
+  color:#3687d9;
+}
