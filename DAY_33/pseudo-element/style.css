@@ -1,0 +1,4 @@
+a[href^="https://"] {
+  color: green;
+  font-weight: bold;
+}
