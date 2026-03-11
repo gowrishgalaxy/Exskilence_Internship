@@ -1,0 +1,15 @@
+.notification-card{
+  width:350px;
+  padding-top:30px;
+  padding-right:45px;
+  padding-bottom:25px;
+  padding-left:20px;
+  background:#f9fafc;
+  border:2px solid #a4acc4;
+  margin:40px auto;
+}
+
+.notification-card h4{
+  margin-top:0;
+  color:#48699c;
+}

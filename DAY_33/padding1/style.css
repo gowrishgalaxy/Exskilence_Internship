@@ -1,0 +1,21 @@
+.demo-box{
+  width:320px;
+  padding:40px;
+  border:2px solid #5c7cfa;
+  font-size:1.2em;
+  margin-bottom:24px;
+}
+
+.box-content{
+  background:#edf6fb;
+  box-sizing:content-box;
+}
+
+.box-border{
+  background:#fdf6ec;
+  box-sizing:border-box;
+}
+
+h5{
+  margin:16px 0 10px 0;
+}
