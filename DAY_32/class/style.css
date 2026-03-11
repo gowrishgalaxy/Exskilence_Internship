@@ -1,0 +1,30 @@
+/* CTA style */
+    .cta {
+      background-color: green;
+      color: white;
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 1.1em;
+      border: none;
+    }
+
+    /* FAQ highlight style */
+    .highlight {
+      background-color: yellow;
+      font-weight: bold;
+      padding: 6px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    button {
+      margin: 6px 4px;
+      padding: 8px 12px;
+    }
+
+    div {
+      margin: 8px 0;
+      padding: 8px;
+    }
