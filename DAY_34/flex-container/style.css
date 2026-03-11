@@ -1,0 +1,17 @@
+.nav-bar{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  background:#23395d;
+  padding:18px 24px;
+  width:100%;
+  box-sizing:border-box;
+}
+
+.nav-bar a{
+  color:#fff;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:1.15em;
+  padding:6px 16px;
+}

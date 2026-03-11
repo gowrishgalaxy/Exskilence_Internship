@@ -1,0 +1,21 @@
+.notification-panel {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 320px;
+  width: 260px;
+  background: #f9fcde;
+  border: 2px solid #bfcf45;
+  padding: 12px;
+  margin: 30px auto;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.notification-panel div {
+  background: #fffcd4;
+  border: 1px solid #f6dc7e;
+  border-radius: 3px;
+  padding: 9px 10px;
+  color: #7d751c;
+  font-size: 1.06em;
+}
