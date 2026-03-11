@@ -1,0 +1,9 @@
+img {
+  width: 120px;
+  margin: 8px;
+}
+
+img[src$=".png"] {
+  border: 3px solid #305ea5;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
