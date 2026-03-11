@@ -1,0 +1,3 @@
+p:not(.no-green) {
+  color: green;
+}
