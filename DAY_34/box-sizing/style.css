@@ -1,0 +1,9 @@
+.border-box-demo{
+  width:320px;
+  padding:22px;
+  border:5px solid #49b594;
+  box-sizing:border-box;
+  background:#edfff5;
+  margin:33px auto;
+  font-size:1.11em;
+}

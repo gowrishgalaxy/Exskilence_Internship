@@ -1,0 +1,14 @@
+/* Universal border-box reset */
+*, *::before, *::after{
+  box-sizing:border-box;
+}
+
+.card{
+  width:260px;
+  padding:20px;
+  border:4px solid #49b594; /* green border */
+  background:#eefaf4;
+  font-size:1.05em;
+  margin:20px;
+  float:left;
+}
