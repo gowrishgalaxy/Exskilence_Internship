@@ -1,0 +1,27 @@
+SELECT First_name, Branch, CGPA
+FROM Students s
+WHERE CGPA >= (
+    SELECT MAX(CGPA)
+    FROM Students
+    WHERE Branch = s.Branch
+);
+
+---------------------------------
+SELECT 
+    L.First_name,
+    L.Designation,
+    S.Subject_name,
+    S.Semester
+FROM Lecturers L
+CROSS JOIN Subjects S;
+
+
+---------------------------------
+SELECT 
+    s.First_name,
+    b.Branch_name,
+    sub.Subject_name
+FROM Students s
+JOIN Marks m      ON s.Usn = m.Usn
+JOIN Subjects sub ON m.SID = sub.SID
+JOIN Branches b   ON s.Branch = b.BID;
