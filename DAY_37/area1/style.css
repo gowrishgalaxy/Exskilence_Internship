@@ -1,0 +1,57 @@
+body{
+font-family: Arial, sans-serif;
+background:#f4f7f9;
+}
+
+.portfolio-grid{
+display:grid;
+grid-template-columns:2fr 2fr 1fr;
+grid-template-rows:120px 90px 90px;
+
+grid-template-areas:
+"showcase showcase proj1"
+"showcase showcase proj2"
+"proj3 proj4 proj5";
+
+max-width:800px;
+margin:36px auto;
+
+gap:13px;
+border-radius:10px;
+}
+
+.showcase{
+grid-area:showcase;
+background:#fae6d1;
+padding:22px;
+}
+
+.proj1{
+grid-area:proj1;
+background:#e3f6ff;
+padding:18px;
+}
+
+.proj2{
+grid-area:proj2;
+background:#d0efd6;
+padding:18px;
+}
+
+.proj3{
+grid-area:proj3;
+background:#fbe7e6;
+padding:18px;
+}
+
+.proj4{
+grid-area:proj4;
+background:#e3e3fd;
+padding:18px;
+}
+
+.proj5{
+grid-area:proj5;
+background:#fff3e7;
+padding:18px;
+}

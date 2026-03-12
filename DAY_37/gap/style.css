@@ -1,0 +1,33 @@
+body{
+font-family: Georgia, serif;
+background:#f5f6f7;
+margin:0;
+padding:40px;
+}
+
+.portfolio-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:calc(13px + 2vw);
+
+max-width:970px;
+margin:0 auto;
+
+padding:30px;
+background:#e8eff3;
+border-radius:10px;
+}
+
+.project{
+background:#c7dbe1;
+border-radius:8px;
+
+padding:18px;
+text-align:center;
+
+color:#2f5963;
+font-weight:700;
+font-size:15px;
+
+box-shadow:0 4px 8px rgba(0,0,0,0.08);
+}
